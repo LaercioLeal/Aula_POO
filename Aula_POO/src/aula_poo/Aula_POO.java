@@ -28,12 +28,21 @@ public class Aula_POO {
         
         System.out.println("\nTa aqui sua mensagem manerona: \n");
         System.out.println(msg);
+       
+        System.out.println("\nVamo fazer o seguinte... Digita agora um numero: ");
+        
+        int num = tcld.nextInt();
+        
+        if(num%2==0){
+            
+            System.out.println("Maluco! Tu Digitou um numero par!!");
+            }
+        else{
+            System.out.println("Que vacilo cara, esse numero é impar...");
+            }
         
         System.out.println("Valeu parcero! Pega visão e segue em frente!!");
+        
+        
     }
-
-    private static String tecladonextline() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-    
 }
